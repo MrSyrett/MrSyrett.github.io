@@ -1,9 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>MrSyrett</title>
+        <script type="text/javascript" src="Portfolio.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Portfolio.css">
     </head>
     <body>
+       <nav class="navbar navbar-default navbar-fixed-top">
+           <div class="container">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="sr-only">Toggle Navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                <a class="navbar-brand" href="#">MS</a></a>
+           </div>
+           <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav navbar-right">
+                   <li class="active"><a href="#">Home</a></li>
+                   <li><a href="#Services">Services</a></li>
+                   <li><a href="#Portfolio">Portfolio</a></li>
+                   <li><a href="#Pricing">Pricing</a></li>
+                   <li><a href="#Contact" data-toggle="modal">Contact</a></li>
+               </ul>
+           </div>
+        </div>
+        </nav>
+        <div class="jumbotron text-center">
+            <h1>Video & Web Solutions</h1>
+            <h3>Video Production | Video Editing | Graphic Design | Photography</h3>
+            <button class="btn">Book Now</button>
+        </div>
+        
+        <div id="Services" class="row">
+            <div class="col-sm-3">
+                <h3>Video Production</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac vestibulum mauris. Nunc nibh tortor, iaculis vitae posuere ullamcorper, ornare sed sapien. In sagittis efficitur purus, in fermentum libero varius sed. Vestibulum in ante ante. Vestibulum quis condimentum nisi, id efficitur lectus. Integer venenatis ornare ante at laoreet. Fusce porttitor.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac vestibulum mauris. Nunc nibh tortor, iaculis vitae posuere ullamcorper, ornare sed sapien. In sagittis efficitur purus, in fermentum libero varius sed. Vestibulum in ante ante. Vestibulum quis condimentum nisi, id efficitur lectus. Integer venenatis ornare ante at laoreet. Fusce porttitor.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac vestibulum mauris. Nunc nibh tortor, iaculis vitae posuere ullamcorper, ornare sed sapien. In sagittis efficitur purus, in fermentum libero varius sed. Vestibulum in ante ante. Vestibulum quis condimentum nisi, id efficitur lectus. Integer venenatis ornare ante at laoreet. Fusce porttitor.</p>
 
+            </div>
+            <div class="col-sm-3">
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac vestibulum mauris. Nunc nibh tortor, iaculis vitae posuere ullamcorper, ornare sed sapien. In sagittis efficitur purus, in fermentum libero varius sed. Vestibulum in ante ante. Vestibulum quis condimentum nisi, id efficitur lectus. Integer venenatis ornare ante at laoreet. Fusce porttitor.</p>
+            </div>
+            </div>
+            
+            <div id="Portfolio" class="row">
+                <div class="col-sm-4">
+                    <iframe src="https://player.vimeo.com/video/159268287" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <p>Ryan Couture Feature - SHOOTMedia</p>
+                </div> 
+                <div class="col-sm-4">
+                    <iframe src="https://player.vimeo.com/video/159268270" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <p>Sports Report Year End Tease - Pac-12 Network</p>
+                </div>
+                 <div class="col-sm-4">
+                    <iframe src="https://player.vimeo.com/video/164592254" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <p>OSU Timelines - Pac-12 Network</p>
+                </div>
+            </div>
+            
+            <div id="Pricing" class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Rates & Discounts</h2>
+                    <p>Flat rate | $50 / Hour</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Introductory Rate</h2>
+                        <h4>20% OFF</h4>
+                        <p>$40 / hour for the first project</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Refer a Friend</h2>
+                        <h4>$75 OFF</h4>
+                        <p>$75 off your next project.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Free Gift</h2>
+                        <h4>Portfolio Photo</h4>
+                        <p>1 free Professional Portfolio photo to update your Website or Social Media</p>
+                    </div>
+                </div>
+                </div>
+            
+            <div class="modal fade" id="Contact" role="dialog">
+                <div class="modal-dailog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Contact Me</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>
