@@ -20,7 +20,7 @@
 
 .parallax { 
     /* The image used */
-    background-image: url("https://preview.c9users.io/mrsyrett/mrsyrett/Projects/portfolio/ComputerBG.jpg?_c9_id=livepreview1&_c9_host=https://ide.c9.io");
+    background-image: url("http://i437.photobucket.com/albums/qq99/AnMsBucket/ComputerBG.jpg");
 
     /* Set a specific height */
     height: 600px; 
@@ -34,7 +34,7 @@
 }
 .parallax2 { 
     /* The image used */
-    background-image: url("https://preview.c9users.io/mrsyrett/mrsyrett/Projects/portfolio/SFatNIGHT.jpg?_c9_id=livepreview0&_c9_host=https://ide.c9.io");
+    background-image: url("http://i437.photobucket.com/albums/qq99/AnMsBucket/SFatNIGHT.jpg");
 
     /* Set a specific height */
     height: 200px; 
@@ -48,7 +48,7 @@
 
 .parallax3 { 
     /* The image used */
-    background-image: url("https://preview.c9users.io/mrsyrett/mrsyrett/Projects/portfolio/WebDev.jpg?_c9_id=livepreview3&_c9_host=https://ide.c9.io");
+    background-image: url("http://i437.photobucket.com/albums/qq99/AnMsBucket/WebDev.jpg");
     
 
     /* Set a specific height */
@@ -119,7 +119,7 @@ h5{
 .quote{
     margin: 0 auto;
     font-family: Rock Salt, cursive;
-    font-size: 50px;
+    font-size: 35px;
     padding: 100px 30px 0px 30px;
     color: #E6E6E6;
 }
