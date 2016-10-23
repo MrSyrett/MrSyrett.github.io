@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand|Rock+Salt';
+
+.navbar-default .navbar-brand{
+    color: #39393A;
+}
+.navbar-default .navbar-brand: hover,
+.navbar-default .navbar-brand: focus{
+    color: #0E79B2;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #39393A;
+}
+.navbar-default{
+    background-color: #E6E6E6;
+}
+.btn > a{
+    text-decoration: none;
+    color: #E6E6E6;
+}
+
+
+
+h5{
+    font-size: 50px;
+    color: #FBFCFF;
+    text-shadow: 1px 1px 2px Black;
+    padding-bottom: 0px;
+}
+
+.divider{
+    border-bottom: 1px solid #39393A;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.portfolio{
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgba(0,0,0,0.5);
+    color: #FBFCFF;
+    width: 100%;
+}
+
+
+body{
+    background-image: url("http://i437.photobucket.com/albums/qq99/AnMsBucket/ComputerBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navbar-text > a,
+.navbar-text > p{
+    margin-bottom: 0px;
+    color: #E6E6E6;
+}
+
+.navbar-inverse{
+    margin-bottom: 0px;
+    background-color: #39393A;
+}

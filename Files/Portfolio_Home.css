@@ -99,6 +99,7 @@ h5{
 
 .pricing{
     padding: 20px;
+    margin-bottom: 70px;
 }
 
 .rate{
@@ -111,10 +112,32 @@ h5{
 }
 
 .portfolio{
-    padding: 20px;
+    padding-bottom: 20px;
     background-color: #E6E6E6;
     width: 100%;
-    color: #39393A;
+}
+
+.video{
+    background-color: #39393A;
+    margin: 0 auto;
+    padding: 0px;
+    height: 200px;
+}
+.photo{
+    background-color: #0E79B2;
+    margin: 0 auto;
+    padding: 0px;
+    height: 200px;
+}
+.web{
+    background-color: #191923;
+    margin: 0 auto;
+    padding: 0px;
+    height: 200px;
+}
+.port-title{
+    margin: 0 auto;
+    padding-top: 40px;
 }
 .quote{
     margin: 0 auto;
@@ -151,3 +174,15 @@ form{
     background-color: #0E79B2;
     color: #E6E6E6;
 }
+
+
+/*
+colors
+-------------------
+black - #191923
+dark grey - #39393A
+blue - #0E79B2
+platinum - #E6E6E6
+white - #FBFCFF
+
+*/
