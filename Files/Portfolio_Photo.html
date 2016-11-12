@@ -4,7 +4,7 @@
         <title>Syrett Web Services</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="Portfolio_Video.css">
+        <link rel="stylesheet" type="text/css" href="Portfolio_Photo.css">
     </head>
     <body>
        <nav class="navbar navbar-default navbar-fixed-top">
@@ -21,9 +21,9 @@
            <div class="navbar-collapse collapse">
                <ul class="nav navbar-nav navbar-right">
                    <li class="active"><a href="Portfolio_Home.html">Home</a></li>
-                   <li><a href="#Services">Services</a></li>
-                   <li><a href="#">Portfolio</a></li>
-                   <li><a href="#Pricing">Pricing</a></li>
+                   <li><a href="Portfolio_Home.html #Services">Services</a></li>
+                   <li><a href="Portfolio_Home.html #Portfolio">Portfolio</a></li>
+                   <li><a href="Portfolio_Home.html #Pricing">Pricing</a></li>
                    <li><a href="#Contact" data-toggle="modal">Contact</a></li>
                </ul>
            </div>
@@ -34,19 +34,35 @@
                     <div  class="row text-center">
                         <h5>Photography</h5>
                         <div class="divider"></div>
-                        <div class="col-md-4">
-                            <iframe src="https://player.vimeo.com/video/159268287" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>Ryan Couture Feature - SHOOTMedia</p>
-                        </div> 
-                        <div class="col-md-4">
-                            <iframe src="https://player.vimeo.com/video/186080494" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-                            <p>Marketing Campaign - Law Offices of Silky Sahnan</p>
+                        
+                        <div id="viewer">
+                          <div class="row">
+                            <div class="slide"><img class="Photo" src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/hands.jpg"/></div>
+                          </div>
+                          <div class="row buttons">
+                           <button id="left" class="btn btn-default"><i class="fa fa-angle-left"></i></button>
+                           <button id="right" class="btn btn-default"><i class="fa fa-angle-right"></i></button>
+                          </div>
                         </div>
-                         <div class="col-md-4">
-                            <iframe src="https://player.vimeo.com/video/164592254" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <p>OSU Timelines - Pac-12 Network</p>
-                        </div>
-                    </div>
+                       
+                        
+<!--                        <div id="photos">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Hannah.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/JampA1.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/liam.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Family.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/hands.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Moo2.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Fountain.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Marie.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Moo1.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Cake.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/298841_10150348941130983_2064631153_n.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Corrina1.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/13164442_10153632644335983_3243613793527685741_n.jpg">-->
+<!--        <img src="http://i437.photobucket.com/albums/qq99/AnMsBucket/Photography/Tats.jpg">-->
+<!--</div>-->
+                  
                 </div>
                 
            
@@ -99,9 +115,9 @@
         
         
         <!-- SCRIPTS -->    
-        <script type="text/javascript" src="Portfolio.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Portfolio_Photo.js"></script>
         <!-- END SCRIPTS -->
         
         
