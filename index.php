@@ -67,6 +67,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
     <title>Syrett Web Services</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -99,18 +100,33 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
   		<div class="row">
   			<div class="col-md-6 col-md-offset-3">
   				<h1 class="page-header text-center">Contact</h1>
+=======
+    <title>Syrett Web Services CONTACT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-6 col-md-offset-3">
+  				<h1 class="page-header text-center">Contact Syrett Web Services</h1>
+>>>>>>> bba701178d71d0b514f7f5bf17dab2f8f2b6188a
 				<form class="form-horizontal" role="form" method="post" action="index.php">
 					<div class="form-group">
 						<label for="name" class="col-sm-2 control-label">Name</label>
 						<div class="col-sm-10">
 							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+<<<<<<< HEAD
 							<?php echo "<p class='error'>$errName</p>";?>
+=======
+							<?php echo "<p class='text-danger'>$errName</p>";?>
+>>>>>>> bba701178d71d0b514f7f5bf17dab2f8f2b6188a
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="email" class="col-sm-2 control-label">Email</label>
 						<div class="col-sm-10">
 							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+<<<<<<< HEAD
 							<?php echo "<p class='error'>$errEmail</p>";?>
 						</div>
 					</div>
@@ -119,13 +135,27 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 						<div class="col-sm-10">
 							<input type="text" class="form-control" id="phone" name="phone" placeholder="555 867 5309" value="<?php echo htmlspecialchars($_POST['phone']); ?>">
 							<?php echo "<p class='error'>$errPhone</p>";?>
+=======
+							<?php echo "<p class='text-danger'>$errEmail</p>";?>
+						</div>
+					</div>
+					<div class="form-group">
+					<div class="col-sm-10">
+					        <label for="phone" class="col-sm-2 control-label">Phone</label>
+							<input type="text" class="form-control" id="phone" name="phone" placeholder="555 867 5309" value="<?php echo htmlspecialchars($_POST['phone']); ?>">
+							<?php echo "<p class='text-danger'>$errPhone</p>";?>
+>>>>>>> bba701178d71d0b514f7f5bf17dab2f8f2b6188a
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="message" class="col-sm-2 control-label">Message</label>
 						<div class="col-sm-10">
 							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+<<<<<<< HEAD
 							<?php echo "<p class='error'>$errMessage</p>";?>
+=======
+							<?php echo "<p class='text-danger'>$errMessage</p>";?>
+>>>>>>> bba701178d71d0b514f7f5bf17dab2f8f2b6188a
 						</div>
 					</div>
 					<div class="form-group">
@@ -142,6 +172,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 			</div>
 		</div>
 	</div>   
+<<<<<<< HEAD
 	<div class="navbar navbar-inverse  navbar-fixed-bottom footer" role="navigation">
                     <div class="container">
                         <div class="navbar-text pull-left">
@@ -155,6 +186,8 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
                         </div>
                     </div>
                 </div>
+=======
+>>>>>>> bba701178d71d0b514f7f5bf17dab2f8f2b6188a
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
